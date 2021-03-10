@@ -1,0 +1,49 @@
+#btn-upscale {
+    margin: 20px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    border-radius: 50%;
+    border: none;
+    background-color:cadetblue;
+    color: white;
+
+}
+#btn-downscale {
+    margin: 20px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    border-radius: 50%;
+    border: none;
+    background-color:cadetblue;
+    color: white;
+
+}
+
+.canvas-content {
+    position: relative;
+    width: 600px;
+    height: 320px;
+}
+
+canvas {
+    position: absolute;
+    border: 1px solid black;
+    margin-left: 40px;
+}
+
+.btns {
+    margin-left: 40px;
+}
+
+.add {
+    margin-left: 40px;
+    margin-top: -10px;
+}
